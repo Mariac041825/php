@@ -6,17 +6,24 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Solucion t1 punto7</h1>
+<h1>Solucion t1 punto7-1</h1>
     <?php
-    $valor=rand(1,10);
+    $valor=rand(1,100);
     echo "El valor sorteado es $valor<br>";
-    if ($valor<=5)
+    if ($valor<=9)
     {
-    echo "Es menor o igual a 5";
+    echo "Tiene un dígito";
     }
     else
     {
-    echo "Es mayor a 5";
+        if ($valor<100)
+        {
+        echo "Tiene 2 dígitos";
+        }
+        else
+        {
+        echo "Tiene 3 dígitos";
+        }
     }
     ?>
     <br>

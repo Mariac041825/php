@@ -6,17 +6,25 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Solucion t1 punto5</h1>
     <?php
-    $num=rand(1,100);
-    echo "el numero es : ",$num,"<br>";
-    if ($num<=50)
-    {
-        echo"el numero es menor o igual que 50";
-    }
-    else
-    {
-        echo "el numero mayor a 50";
-    }
+    $dia = 14; //Se declara una variable de tipo integer.
+    $sueldo = 750.000; //Se declara una variable de tipo double.
+    $nombre = "Camila"; //Se declara una variable de tipo string.
+    $exite = true; //Se declara una variable boolean.
+    echo "Variable entera:";
+    echo $dia;
+    echo "<br>";
+    echo "Variable double:";
+    echo $sueldo;
+    echo "<br>";
+    echo "Variable string:";
+    echo $nombre;
+    echo "<br>";
+    echo "Variable boolean:";
+    echo $exite;
     ?>
+    <br>
+    <a href="index.php">Regresar pagina inicial</a>
 </body>
 </html>

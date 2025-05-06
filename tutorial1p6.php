@@ -3,26 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>problema</title>
+    <title>Document</title>
 </head>
 <body>
-<?php
-$dia = 24; 
-$sueldo = 758.43;
-$nombre = "Maria Camila"; 
-$exite = true; 
-echo "Variable entera:";
-echo $dia;
-echo "<br>";
-echo "Variable double:";
-echo $sueldo;
-echo "<br>";
-echo "Variable string:";
-echo $nombre;
-echo "<br>";
-echo "Variable boolean:";
-echo $exite;
-?>
+<h1>Solucion t1 punto6 </h1>
+    <?php
+    $precio=90.000;
+    echo "La computadora tiene un precio de ", $precio, "<br>";
     
+    $dia=18;
+    echo "Camila cumple años el dia ", $dia, "<br>";
+    
+    $estudio="ADSO";
+    echo "Camila esta realizando un tecnologo en $estudio";
+    ?>
+    <br>
+    <a href="index.php">Regresar pagina inicial</a>
 </body>
 </html>

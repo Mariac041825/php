@@ -7,12 +7,15 @@
 </head>
 <body>
 <?php
-    $contrato = $_REQUEST['contrato'];
-    echo "Contrato modificado: <br>";
-    echo nl2br(htmlspecialchars($contrato));
+$claves_acceso = array(
+    'usuario1' => 'clave123',
+    'usuario2' => 'segura456',
+    'usuario3' => 'password789',
+    'usuario4' => 'acceso321',
+    'usuario5' => 'entrada654'
+);
+echo $claves_acceso['usuario2'];
 ?>
-<br>
-<a href="tutorial1p13.php">Regresar al formulario</a>
 <br>
 <a href="index.php">Regresar pagina inicial</a>
 </body>

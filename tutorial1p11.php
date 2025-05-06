@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario entrada del dato</title>
+    <title>Document</title>
 </head>
 <body>
-<form method="post" action="pagina2.php">
-Ingrese su nombre:
-<input type="text" name="nombre">
+<?php
+    $nombre = $_REQUEST['nombre'];
+    echo "El nombre ingresado es: ".$nombre . "<br>";
+
+    if (isset($_REQUEST['deportes'])){
+        $cantidad_deportes = count($_REQUEST['deportes']);
+        echo "La cantidad de deportes que practica es: " . $cantidad_deportes . "<br>";
+    }
+    else{
+        echo "No practica ningun deporte";
+    }
+    
+?>
 <br>
+<a href="tutorial1p11.php">Regresar al formulario</a>
 <br>
-Ingrese su edad:
-<input type="text" name="edad">
-<br>
-<br>
-<input type="submit" value="confirmar">
-</form>
+<a href="index.php">Regresar pagina inicial</a>
+</body>
 </body>
 </html>

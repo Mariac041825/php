@@ -11,6 +11,8 @@
     <br>
     <a href="tutorial1p4.php">Ir a ejercicio t1p4</a>
     <br>
+    <a href="tutorial1p4-1.php">Ir a ejercicio t1p4</a>
+    <br>
     <a href="tutorial1p5.php">Ir a ejercicio t1p5</a>
     <br>
     <a href="tutorial1p6.php">Ir a ejercicio t1p6</a>

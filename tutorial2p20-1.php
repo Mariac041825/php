@@ -6,13 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-<?php
-    $contrato = $_REQUEST['contrato'];
-    echo "Contrato modificado: <br>";
-    echo nl2br(htmlspecialchars($contrato));
-?>
+<h1>Ingresar curso</h1>
+<form action="tutorial2p20-1.php" method="post">
+Ingrese el nombre del curso:
+<input type="text" name="nombre_curso"><br>
 <br>
-<a href="tutorial1p13.php">Regresar al formulario</a>
+<input type="submit" value="Registrar">
+</form>
 <br>
 <a href="index.php">Regresar pagina inicial</a>
 </body>

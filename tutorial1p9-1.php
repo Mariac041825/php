@@ -6,14 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-<?php
-    $contrato = $_REQUEST['contrato'];
-    echo "Contrato modificado: <br>";
-    echo nl2br(htmlspecialchars($contrato));
-?>
+<h1>Solucion t1 punto9</h1>
+<form action="t1p9_1.php" method="post" >
+Ingrese su nombre:
+<input type="text" name="nombre">
 <br>
-<a href="tutorial1p13.php">Regresar al formulario</a>
+Ingrese su edad:
+<input type="text" name="edad">
+<br>
+<input type="submit" value="confirmar">
 <br>
 <a href="index.php">Regresar pagina inicial</a>
+</form>
 </body>
 </html>
