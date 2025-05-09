@@ -6,12 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Ingresar curso</h1>
-<form action="tutorial2p20-1.php" method="post">
-Ingrese el nombre del curso:
-<input type="text" name="nombre_curso"><br>
-<br>
-<input type="submit" value="Registrar">
+<form action="tutorial2p22.php" method="post">
+    Nombre del alumno: <input type="text" name="nombre" required>
+    <input type="submit" value="Buscar">
 </form>
 <br>
 <a href="index.php">Regresar pagina inicial</a>
